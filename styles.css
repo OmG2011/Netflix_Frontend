@@ -1,0 +1,304 @@
+*{
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.bg {
+  width: 100%;
+  height: 100vh;
+  background-image: url("bg.jpg");
+  background-size: cover;
+}
+
+.bg img{
+  width: 300px;
+  height: 100px;
+  margin-left: 50px;  
+}
+
+.head-right button{
+  height: 100%;
+  padding: 10px;
+  font-size: 15px;
+  margin-top: 23px;
+  text-align: center;
+  background-color: #e50914;
+  color: white;
+}
+
+.bg-dark  {
+  width: 100%;
+  height: 100%;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  background-color: rgba(0, 0, 0, 0.61);    
+}
+
+.bg-dark a{
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.head {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 50px;  
+}
+
+.head-right{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.head select{
+  background-color: rgba(0, 0, 0, 0.303);
+  color: white;
+  height: 30px;
+  width: 100px;
+  margin: 30px;
+  text-align: center;
+  font-size: 17px;  
+}
+
+.content-des{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 80%;
+  justify-content: center;
+  align-items: center;  
+}
+
+.bg h1{
+  color: white;
+  font-size: 50px;
+}
+
+.bg p{
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.email-collect{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.bg input{
+  font-size: 20px;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.303);
+  border: #383838 solid 1px;
+  border: 0%;
+  margin: 10px;
+}
+
+.email-collect button{
+  font-size: 20px;
+  padding: 10px;
+  background-color: #e50914;
+  color: white;
+}
+
+.section-2{
+  float: left;
+  height: 80vh;
+  width: 100%;
+  background-color: black;
+  color: white;
+  clear: both;
+  display: table;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+}
+
+.section-2 div{  
+  float: left;
+  width: 40%;
+  padding-left: 100px;
+}
+
+.section-2 h1{
+  font-size: 40px;
+}
+
+.section-2 p{
+  margin-top: 20px;
+  font-size: 20px;
+  width: 100%;
+}
+
+.section-2 img{
+  float: left;
+  width: 30%;
+}
+
+.section-3{
+  float: left;
+  height: 80vh;
+  width: 100%;
+  background-color: black;
+  color: white;
+  clear: both;
+  display: table;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+}
+
+.section-3 div{
+  float: left;  
+  width: 30%;
+}
+
+.section-3 h1{
+  font-size: 40px;
+  margin-bottom: 20px;  
+}
+
+.section-3 img{
+  float: left;
+  width: 40%;
+  height: 80%;
+}
+
+.section-4{
+  float: left;
+  height: 80vh;
+  width: 100%;
+  background-color: black;
+  color: white;
+  clear: both;
+  display: table;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+}
+
+.section-4 div{  
+  float: left;
+  width: 40%;
+  padding-left: 100px;
+}
+
+.section-4 h1{
+  font-size: 40px;
+}
+
+.section-4 p{
+  margin-top: 20px;
+  font-size: 20px;
+  width: 100%;
+}
+
+.section-4 img{
+  float: left;
+  width: 30%;
+}
+
+.section-5{
+  float: left;
+  height: 80vh;
+  width: 100%;
+  background-color: black;
+  color: white;
+  clear: both;
+  display: table;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+}
+
+.section-5 div{
+  float: left;  
+  width: 30%;
+}
+
+.section-5 h1{
+  font-size: 40px;  
+  margin-bottom: 20px;
+}
+
+.section-5 img{
+  float: left;
+  width: 40%;
+  height: 80%;
+}
+
+.section-6{
+  height: 100%;
+  width: 100%;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+  clear: both;
+  display: table;
+  display: flex;
+  flex-direction: column;
+}
+
+.section-6 h1{
+  font-size: 40px;
+  color: white;
+  font-weight: 1200;
+}
+
+.section-6 details{    
+  width: 80%;
+  border: black solid 2px;
+  padding: 10px;
+  color: white;
+}
+
+.section-6 summary{
+  background-color: #2d2d2d;
+  height: 80px;
+  font-size: 30px;
+  padding: 20px;
+}
+
+.section-6 details p{
+  font-size: 20px;
+  margin-top: 5px;
+  background-color: #2d2d2d;
+  padding: 20px;
+}
+
+.section-6 p{
+  margin-top: 20px;
+  font-size: 30px;
+  color: white;
+}
+
+.section-6 div{
+  margin-top: 20px;
+  float: left;
+}
+
+.section-6 input{
+  padding: 10px;
+  font-size: 20px;
+  background-color: #0f0f0f;
+  border: #383838 solid 1px;
+}
+
+.section-6 button{  
+  padding: 10px;
+  font-size: 20px;
+  background-color: #e50914;
+  color: white;
+  font-weight: 800px;
+}
